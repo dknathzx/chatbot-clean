@@ -7,7 +7,7 @@ import os
 from chatbot import get_response  # importing your brain!
 
 # Railway assigns a dynamic port — we must use it!
-PORT = int(os.environ.get("PORT", 8000))
+PORT = int(os.environ.get("PORT", 3000))
 
 class ChatHandler(BaseHTTPRequestHandler):
 
