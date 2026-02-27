@@ -1,0 +1,1 @@
+web: python KONE_IT_Agent/my-chatbot/server.py
